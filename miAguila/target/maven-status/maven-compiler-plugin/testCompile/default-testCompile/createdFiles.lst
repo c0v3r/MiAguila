@@ -1,0 +1,10 @@
+pages/AddressMapPage.class
+pages/HomePage.class
+pages/HeaderPage.class
+utils/BrowserManager.class
+tests/MiAguilaTest.class
+pages/AddressPage.class
+pages/SignUpPage.class
+tests/BaseTest.class
+pages/LoginPage.class
+utils/Common.class

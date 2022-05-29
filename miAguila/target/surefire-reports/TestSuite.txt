@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 87.968 s <<< FAILURE! - in TestSuite
+SignUpSuccess(tests.MiAguilaTest)  Time elapsed: 41.562 s  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+javascript error: Unable to find owning document
+  (Session info: chrome=102.0.5005.61)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'hernan-1980', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_312'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0531698fea207b8748c0971222838c20, submitElement {id=9b56df4e-69bc-45b1-b408-7ff4b5385793}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.0awdmc}, goog:chromeOptions: {debuggerAddress: localhost:45037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:45037/devtoo..., se:cdpVersion: 102.0.5005.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (0531698fea207b8748c0971222838c20)] -> xpath: //button[@aria-label='Guardar']/span[contains(.,'Guardar')]]
+Session ID: 0531698fea207b8748c0971222838c20
+	at tests.MiAguilaTest.SignUpSuccess(MiAguilaTest.java:38)
+
